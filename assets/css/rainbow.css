@@ -1,0 +1,30 @@
+.pt-rainbow {
+  -webkit-animation: rainbow 8s ease infinite;
+          animation: rainbow 8s ease infinite;
+  background-image: linear-gradient(124deg, #ff3860, #3273dc, #00d1b2, #23d160);
+  background-size: 800% 800%;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 80%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0% 80%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 80%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0% 80%;
+  }
+}
